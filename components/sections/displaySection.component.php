@@ -1,5 +1,5 @@
 <?php
-require_once BASE_PATH . '/components/cards/displayPets.utils.php';
+require_once BASE_PATH . '/components/cards/displayPets.component.php';
 ?>
 
 <?php
