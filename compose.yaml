@@ -2,6 +2,8 @@ services:
   web-app-php:
     build: .
     container_name: web-app-php-1
+    ports:
+      - "8080:80"
     # depends_on:
     #   - postgres
     #   - mongo

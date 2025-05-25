@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #F4A261 ;
+    padding: 2.5rem 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #FAF3E0 ;
+    color: #333333;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #B35C44 ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1300px;
+    margin: 8rem auto;  
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #F4A261;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#button:hover{
+    background-color: #B35C44;
+}
+
+h1, h2 {
+    color: #333333;
+}
+
+.pets-section {
+    margin-top: 40px;
+}
+
+.pets-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #444;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pet {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pet img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.pet:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.pet h3 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+    color: #444;
+}
+
+.pet p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+
+form {
+    margin-top: 1rem;
+}
+
+form input, form textarea, form select, form button {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #F4A261;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #B35C44;
+}
