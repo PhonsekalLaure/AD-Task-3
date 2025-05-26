@@ -28,11 +28,6 @@ nav($menu)
             <h2>Our Mission</h2>
             <p>To provide a safe haven for abandoned and homeless pets while promoting responsible pet ownership through education and community engagement.</p>
     </section>
-    <section>
-            <?php
-                contactUs();
-            ?>
-    </section>
 </main>
 
 <?php
